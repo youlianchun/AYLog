@@ -13,30 +13,11 @@
 		A970B03F1DC0A8FC00366C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A970B03D1DC0A8FC00366C44 /* Main.storyboard */; };
 		A970B0411DC0A8FC00366C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A970B0401DC0A8FC00366C44 /* Assets.xcassets */; };
 		A970B0441DC0A8FC00366C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A970B0421DC0A8FC00366C44 /* LaunchScreen.storyboard */; };
-		A970B04F1DC0A8FC00366C44 /* NDLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A970B04E1DC0A8FC00366C44 /* NDLogTests.m */; };
-		A970B05A1DC0A8FC00366C44 /* NDLogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A970B0591DC0A8FC00366C44 /* NDLogUITests.m */; };
-		A970B06A1DC0A92100366C44 /* NDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A970B0691DC0A92100366C44 /* NDLog.m */; };
+		A970B06A1DC0A92100366C44 /* AYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A970B0691DC0A92100366C44 /* AYLog.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A970B04B1DC0A8FC00366C44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A970B0291DC0A8FC00366C44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A970B0301DC0A8FC00366C44;
-			remoteInfo = NDLog;
-		};
-		A970B0561DC0A8FC00366C44 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A970B0291DC0A8FC00366C44 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A970B0301DC0A8FC00366C44;
-			remoteInfo = NDLog;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		A970B0311DC0A8FC00366C44 /* NDLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A970B0311DC0A8FC00366C44 /* AYLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A970B0351DC0A8FC00366C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A970B0371DC0A8FC00366C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A970B0381DC0A8FC00366C44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,32 +27,12 @@
 		A970B0401DC0A8FC00366C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A970B0431DC0A8FC00366C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A970B0451DC0A8FC00366C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A970B04A1DC0A8FC00366C44 /* NDLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A970B04E1DC0A8FC00366C44 /* NDLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDLogTests.m; sourceTree = "<group>"; };
-		A970B0501DC0A8FC00366C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A970B0551DC0A8FC00366C44 /* NDLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A970B0591DC0A8FC00366C44 /* NDLogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDLogUITests.m; sourceTree = "<group>"; };
-		A970B05B1DC0A8FC00366C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A970B0681DC0A92100366C44 /* NDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDLog.h; sourceTree = "<group>"; };
-		A970B0691DC0A92100366C44 /* NDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDLog.m; sourceTree = "<group>"; };
+		A970B0681DC0A92100366C44 /* AYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYLog.h; sourceTree = "<group>"; };
+		A970B0691DC0A92100366C44 /* AYLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A970B02E1DC0A8FC00366C44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A970B0471DC0A8FC00366C44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A970B0521DC0A8FC00366C44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,9 +45,7 @@
 		A970B0281DC0A8FC00366C44 = {
 			isa = PBXGroup;
 			children = (
-				A970B0331DC0A8FC00366C44 /* NDLog */,
-				A970B04D1DC0A8FC00366C44 /* NDLogTests */,
-				A970B0581DC0A8FC00366C44 /* NDLogUITests */,
+				A970B0331DC0A8FC00366C44 /* AYLog */,
 				A970B0321DC0A8FC00366C44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,17 +53,15 @@
 		A970B0321DC0A8FC00366C44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A970B0311DC0A8FC00366C44 /* NDLog.app */,
-				A970B04A1DC0A8FC00366C44 /* NDLogTests.xctest */,
-				A970B0551DC0A8FC00366C44 /* NDLogUITests.xctest */,
+				A970B0311DC0A8FC00366C44 /* AYLog.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A970B0331DC0A8FC00366C44 /* NDLog */ = {
+		A970B0331DC0A8FC00366C44 /* AYLog */ = {
 			isa = PBXGroup;
 			children = (
-				A970B0671DC0A92100366C44 /* NDLog */,
+				A970B0671DC0A92100366C44 /* AYLog */,
 				A970B0371DC0A8FC00366C44 /* AppDelegate.h */,
 				A970B0381DC0A8FC00366C44 /* AppDelegate.m */,
 				A970B03A1DC0A8FC00366C44 /* ViewController.h */,
@@ -115,7 +72,7 @@
 				A970B0451DC0A8FC00366C44 /* Info.plist */,
 				A970B0341DC0A8FC00366C44 /* Supporting Files */,
 			);
-			path = NDLog;
+			path = AYLog;
 			sourceTree = "<group>";
 		};
 		A970B0341DC0A8FC00366C44 /* Supporting Files */ = {
@@ -126,39 +83,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A970B04D1DC0A8FC00366C44 /* NDLogTests */ = {
+		A970B0671DC0A92100366C44 /* AYLog */ = {
 			isa = PBXGroup;
 			children = (
-				A970B04E1DC0A8FC00366C44 /* NDLogTests.m */,
-				A970B0501DC0A8FC00366C44 /* Info.plist */,
+				A970B0681DC0A92100366C44 /* AYLog.h */,
+				A970B0691DC0A92100366C44 /* AYLog.m */,
 			);
-			path = NDLogTests;
-			sourceTree = "<group>";
-		};
-		A970B0581DC0A8FC00366C44 /* NDLogUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A970B0591DC0A8FC00366C44 /* NDLogUITests.m */,
-				A970B05B1DC0A8FC00366C44 /* Info.plist */,
-			);
-			path = NDLogUITests;
-			sourceTree = "<group>";
-		};
-		A970B0671DC0A92100366C44 /* NDLog */ = {
-			isa = PBXGroup;
-			children = (
-				A970B0681DC0A92100366C44 /* NDLog.h */,
-				A970B0691DC0A92100366C44 /* NDLog.m */,
-			);
-			path = NDLog;
+			path = AYLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A970B0301DC0A8FC00366C44 /* NDLog */ = {
+		A970B0301DC0A8FC00366C44 /* AYLog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A970B05E1DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "NDLog" */;
+			buildConfigurationList = A970B05E1DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "AYLog" */;
 			buildPhases = (
 				A970B02D1DC0A8FC00366C44 /* Sources */,
 				A970B02E1DC0A8FC00366C44 /* Frameworks */,
@@ -168,46 +107,10 @@
 			);
 			dependencies = (
 			);
-			name = NDLog;
+			name = AYLog;
 			productName = NDLog;
-			productReference = A970B0311DC0A8FC00366C44 /* NDLog.app */;
+			productReference = A970B0311DC0A8FC00366C44 /* AYLog.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A970B0491DC0A8FC00366C44 /* NDLogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A970B0611DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "NDLogTests" */;
-			buildPhases = (
-				A970B0461DC0A8FC00366C44 /* Sources */,
-				A970B0471DC0A8FC00366C44 /* Frameworks */,
-				A970B0481DC0A8FC00366C44 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A970B04C1DC0A8FC00366C44 /* PBXTargetDependency */,
-			);
-			name = NDLogTests;
-			productName = NDLogTests;
-			productReference = A970B04A1DC0A8FC00366C44 /* NDLogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A970B0541DC0A8FC00366C44 /* NDLogUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A970B0641DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "NDLogUITests" */;
-			buildPhases = (
-				A970B0511DC0A8FC00366C44 /* Sources */,
-				A970B0521DC0A8FC00366C44 /* Frameworks */,
-				A970B0531DC0A8FC00366C44 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A970B0571DC0A8FC00366C44 /* PBXTargetDependency */,
-			);
-			name = NDLogUITests;
-			productName = NDLogUITests;
-			productReference = A970B0551DC0A8FC00366C44 /* NDLogUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -222,19 +125,9 @@
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
-					A970B0491DC0A8FC00366C44 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A970B0301DC0A8FC00366C44;
-					};
-					A970B0541DC0A8FC00366C44 = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A970B0301DC0A8FC00366C44;
-					};
 				};
 			};
-			buildConfigurationList = A970B02C1DC0A8FC00366C44 /* Build configuration list for PBXProject "NDLog" */;
+			buildConfigurationList = A970B02C1DC0A8FC00366C44 /* Build configuration list for PBXProject "AYLog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -247,9 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A970B0301DC0A8FC00366C44 /* NDLog */,
-				A970B0491DC0A8FC00366C44 /* NDLogTests */,
-				A970B0541DC0A8FC00366C44 /* NDLogUITests */,
+				A970B0301DC0A8FC00366C44 /* AYLog */,
 			);
 		};
 /* End PBXProject section */
@@ -265,20 +156,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A970B0481DC0A8FC00366C44 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A970B0531DC0A8FC00366C44 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -288,41 +165,12 @@
 			files = (
 				A970B03C1DC0A8FC00366C44 /* ViewController.m in Sources */,
 				A970B0391DC0A8FC00366C44 /* AppDelegate.m in Sources */,
-				A970B06A1DC0A92100366C44 /* NDLog.m in Sources */,
+				A970B06A1DC0A92100366C44 /* AYLog.m in Sources */,
 				A970B0361DC0A8FC00366C44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A970B0461DC0A8FC00366C44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A970B04F1DC0A8FC00366C44 /* NDLogTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A970B0511DC0A8FC00366C44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A970B05A1DC0A8FC00366C44 /* NDLogUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A970B04C1DC0A8FC00366C44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A970B0301DC0A8FC00366C44 /* NDLog */;
-			targetProxy = A970B04B1DC0A8FC00366C44 /* PBXContainerItemProxy */;
-		};
-		A970B0571DC0A8FC00366C44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A970B0301DC0A8FC00366C44 /* NDLog */;
-			targetProxy = A970B0561DC0A8FC00366C44 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A970B03D1DC0A8FC00366C44 /* Main.storyboard */ = {
@@ -438,9 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NDLog/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AYLog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.NDLog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.AYLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -449,63 +297,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = NDLog/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AYLog/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.NDLog;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.AYLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A970B0621DC0A8FC00366C44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NDLogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.NDLogTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NDLog.app/NDLog";
-			};
-			name = Debug;
-		};
-		A970B0631DC0A8FC00366C44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NDLogTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.NDLogTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NDLog.app/NDLog";
-			};
-			name = Release;
-		};
-		A970B0651DC0A8FC00366C44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NDLogUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.NDLogUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NDLog;
-			};
-			name = Debug;
-		};
-		A970B0661DC0A8FC00366C44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NDLogUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ylchun.NDLogUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NDLog;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A970B02C1DC0A8FC00366C44 /* Build configuration list for PBXProject "NDLog" */ = {
+		A970B02C1DC0A8FC00366C44 /* Build configuration list for PBXProject "AYLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A970B05C1DC0A8FC00366C44 /* Debug */,
@@ -514,29 +316,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A970B05E1DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "NDLog" */ = {
+		A970B05E1DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "AYLog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A970B05F1DC0A8FC00366C44 /* Debug */,
 				A970B0601DC0A8FC00366C44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A970B0611DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "NDLogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A970B0621DC0A8FC00366C44 /* Debug */,
-				A970B0631DC0A8FC00366C44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		A970B0641DC0A8FC00366C44 /* Build configuration list for PBXNativeTarget "NDLogUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A970B0651DC0A8FC00366C44 /* Debug */,
-				A970B0661DC0A8FC00366C44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  NDLog
+//  AYLog
 //
 //  Created by YLCHUN on 16/10/26.
 //  Copyright © 2016年 ylchun. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "NDLog.h"
+#import "AYLog.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NDLog(@"Hallow, NDLog");
+    AYLog(@"Hallow, AYLog");
     return YES;
 }
 

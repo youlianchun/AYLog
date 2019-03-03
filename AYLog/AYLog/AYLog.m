@@ -1,14 +1,14 @@
 //
-//  NDLog.m
-//  NDLog
+//  AYLog.m
+//  AYLog
 //
 //  Created by YLCHUN on 16/10/26.
 //  Copyright © 2016年 ylchun. All rights reserved.
 //
 
-#import "NDLog.h"
+#import "AYLog.h"
 
-void NDLogv(NSString *format, va_list args) {
+void AYLogv(NSString *format, va_list args) {
 #if DEBUG
     NSMutableString * message = [[NSMutableString alloc] initWithFormat:format arguments:args];
     NSDate *date = [NSDate date];
@@ -33,12 +33,12 @@ void NDLogv(NSString *format, va_list args) {
 #endif
 }
 
-void NDLog(NSString *format, ...) {
+void AYLog(NSString *format, ...) {
 #if DEBUG
     va_list argumentList;
     va_start(argumentList, format);
     NSMutableString * message = [[NSMutableString alloc] initWithFormat:format arguments:argumentList];
     va_end(argumentList);
-    NDLogv(message, argumentList);
+    AYLogv(message, argumentList);
 #endif
 }
